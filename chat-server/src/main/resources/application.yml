@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://alpha-server:63306/chat_room
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:com/kingston/im/chat/data/mybatis/*Mapper.xml
+  config-location: classpath:mybatis-config.xml
