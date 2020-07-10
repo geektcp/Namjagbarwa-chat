@@ -17,9 +17,9 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>io.netty</groupId>
-            <artifactId>netty-all</artifactId>
-            <version>4.1.25.Final</version>
+           <groupId>io.netty</groupId>
+           <artifactId>netty-all</artifactId>
+           <version>[4.1.42,)</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -28,9 +28,9 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.15</version>
+           <groupId>mysql</groupId>
+           <artifactId>mysql-connector-java</artifactId>
+           <version>[8.0.16,)</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
